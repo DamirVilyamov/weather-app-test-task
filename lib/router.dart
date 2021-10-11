@@ -8,7 +8,7 @@ class AppRouter {
       case SplashScreen.routeName:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
       case HomeScreen.routeName:
-        return MaterialPageRoute(builder: (_) => const HomeScreen());
+        return MaterialPageRoute(builder: (_) => HomeScreen());
       default:
         return MaterialPageRoute(builder: (_) => const SplashScreen());
     }
